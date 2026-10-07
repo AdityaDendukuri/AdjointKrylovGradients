@@ -1,0 +1,21 @@
+name = "AdjointKrylovGradientExperiments"
+uuid = "8ee218c9-7286-4c75-9440-96fc036a5228"
+
+[deps]
+AdjointKrylovGradients = "a1b2c3d4-5678-9abc-def0-123456789abc"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Catalyst = "479239e8-5488-4da2-87a7-35f2df7eef83"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+ExponentialUtilities = "d4d017d3-3776-5f7e-afef-a10c40355c18"
+FastGaussQuadrature = "442a2c76-b920-505d-bb47-c5924d526838"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+JumpProcesses = "ccbc3e58-028d-4f4c-8cd5-9ae44345cda5"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[sources]
+AdjointKrylovGradients = {path = ".."}
+
+[compat]
+julia = "1.11"
