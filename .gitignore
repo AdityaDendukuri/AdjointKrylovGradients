@@ -1,0 +1,35 @@
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.thm
+.DS_Store
+.julia/
+Manifest.toml
+# The experiments environment is pinned so the paper's runs reproduce.
+!experiments/Manifest.toml
+__pycache__/
+*.pyc
+
+# Generated numerical results and figures.
+results/
+benchmark_results/
+**/figures/
+*.csv
+*.json
+*.jld2
+*.pdf
+*.png
+
+# Manuscript sources and submission archive are maintained separately.
+paper/
+paper.zip
+
+# Local working files, never published.
+tmp/
+arxiv_packet/
+*.tar.gz
+*.zip
